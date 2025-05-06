@@ -1,0 +1,12 @@
+aggregate_check: false
+
+upload_channels:
+  - services
+
+channels:
+  - services-build-deps
+  - services
+
+upload_without_merge: true
+
+
