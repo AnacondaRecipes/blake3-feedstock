@@ -24,7 +24,7 @@ requirements:
     - {{ compiler('c') }}
     - cargo-bundle-licenses
   host:
-    - maturin >=0.14,<0.15
+    - maturin >=1.0,<2
     - pip
     - python
     - toml
