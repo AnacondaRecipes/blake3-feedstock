@@ -25,6 +25,8 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
     - cargo-bundle-licenses
+    - setuptools
+    - wheel
   host:
     - maturin >=1.0,<2
     - pip
